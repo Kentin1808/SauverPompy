@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    //Bouton du cours sur les brûlures
+    <Button
+        android:id="@+id/button_brulure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Brûlures" />
+
+    //Bouton du cours sur les coups de chaleur
+    <Button
+        android:id="@+id/button_coupdechaleur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_brulure"
+        android:text="Coup de chaleur" />
+
+    //Bouton du cours sur l'AVC
+    <Button
+        android:id="@+id/button_avc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_coupdechaleur"
+        android:text="AVC : Accident Vasculaire Cérébrale" />
+
+    //Bouton du cours sur la crise d'épilepsie
+    <Button
+        android:id="@+id/button_criseepilepsie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_avc"
+        android:text="Crise d'épilepsie" />
+
+    //Bouton du cours sur l'étouffement
+    <Button
+        android:id="@+id/button_etouffement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_criseepilepsie"
+        android:text="Etouffement" />
+
+
+    //Bouton du cours sur les hémorragies
+    <Button
+        android:id="@+id/button_hemorragie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_etouffement"
+        android:text="Hémorragie" />
+
+    //Bouton du cours sur le traumatisme cranien
+    <Button
+        android:id="@+id/button_traumatismecranien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_hemorragie"
+        android:text="Traumatisme cranien" />
+
+    //Bouton du cours sur la perte de connaissance
+    <Button
+        android:id="@+id/button_perteconnaissance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_traumatismecranien"
+        android:text="Perte de connaissance" />
+
+    //Bouton du cours sur la RCP
+    <Button
+        android:id="@+id/button_rcp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_perteconnaissance"
+        android:text="Arrêt cardiaque" />
+
+    //Bouton du cours sur les empoisonnement/substance toxique
+    <Button
+        android:id="@+id/button_empoisonnement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_rcp"
+        android:text="Empoisonnement/Substance toxique" />
+
+</RelativeLayout>
