@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Sauvez Pompy!</string>
+    <string name="title_activity_fin">Sauvez Pompy!</string>
+
+    <!-- question 1 -->
+    <string name="question1">Dans cette situation, que faire en premier?</string>
+
+    <string name="bonnerep1">Je passe la brûlure sous l\'eau froide</string>
+    <string name="mauvaiserep1.1">Je passe la brûlure sous l\'eau chaude</string>
+    <string name="mauvaiserep1.2">Je téléphone aux pompiers</string>
+    <string name="mauvaiserep1.3">Je met de la glace sur la brûlure</string>
+    <!-- Réponse 1 -->
+    <string name="felicitation">Félicitation!</string>
+    <string name="continuer">Question Suivante</string>
+
+    <!-- Question 2 -->
+    <string name="title_activity_question2">Question2</string>
+
+    <string name="question2">Comment reconnaitre une brûlure grave?</string>
+
+    <string name="bonnerep2">Des cloques apparaissent sur la surface brûlée</string>
+    <string name="mauvaiserep2.1">La peau est rouge et enflée</string>
+    <string name="mauvaiserep2.2">La brûlure ce situe au niveau du visage</string>
+    <string name="mauvaiserep2.3">La victime se plaint beaucoup</string>
+
+    <!-- Question 3 -->
+    <string name="question3">Que faire en cas de brûlure par absorbtion</string>
+
+    <string name="bonnerep3">Ne pas faire boire ni vomir la victime</string>
+    <string name="mauvaiserep3.1">Faire boire la victime sans la faire vomir</string>
+    <string name="mauvaiserep3.2">Faire vomir la victime sans la faire boire</string>
+    <string name="mauvaiserep3.3">Faire vomir puis boire la victime</string>
+
+</resources>
