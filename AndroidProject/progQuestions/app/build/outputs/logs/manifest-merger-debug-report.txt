@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\492fa79df04645a32953ff39498d9510\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b863a4220d6c6680c48bc649e381533f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\841208a0d8ae5b66d396af71be69f563\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee778f0621fc7c3a8fb41e4bb9556d92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\361c765060f9b715c332e4a3bd65b841\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a94fdc10b410df9f9e1ce98d4cee3bb6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\417e2915c50bb50aba4be1d83fd68a69\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d4a3605fee491524cd82e15a585400ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7c3dec16f36543ac16b38dfdc02fdfe8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4d6d6cc12659e04b2effd0d203d9af98\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0962ede0664cdcee1b88f7fcbbbf8d89\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3975cdda7262af656fce4dc53e0e90a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\700fd3dcf657ea15f6632587c5016680\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\63c1bfbe918430f7f3983e456466a6ee\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\055923025c396eaae5944854798bcd23\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c4c012d4876e5523710efed51c5da764\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ac99007b6cc59e4f57a93a7d6d84afbc\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:5:5-32:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\841208a0d8ae5b66d396af71be69f563\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\841208a0d8ae5b66d396af71be69f563\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:9:9-42
+	android:icon
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:7:9-37
+	android:allowBackup
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.sauvezpompy.progquestions.Question1
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:12:9-47
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:12:19-44
+activity#com.sauvezpompy.progquestions.Reponse1
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:13:9-46
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:13:19-43
+activity#com.sauvezpompy.progquestions.Question2
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:14:9-17:59
+	android:label
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:16:13-61
+	android:theme
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:15:13-38
+activity#com.sauvezpompy.progquestions.Fin
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:18:9-27:20
+	android:label
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:20:13-55
+	android:theme
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:19:13-32
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.sauvezpompy.progquestions.AffichageScore
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:28:9-52
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:28:19-49
+activity#com.sauvezpompy.progquestions.Reponse2
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:29:9-46
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:29:19-43
+activity#com.sauvezpompy.progquestions.Question3
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:30:9-47
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:30:19-44
+activity#com.sauvezpompy.progquestions.Reponse3
+ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:31:9-55
+	android:name
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml:31:19-43
+uses-sdk
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\492fa79df04645a32953ff39498d9510\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\492fa79df04645a32953ff39498d9510\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b863a4220d6c6680c48bc649e381533f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b863a4220d6c6680c48bc649e381533f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\841208a0d8ae5b66d396af71be69f563\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\841208a0d8ae5b66d396af71be69f563\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee778f0621fc7c3a8fb41e4bb9556d92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee778f0621fc7c3a8fb41e4bb9556d92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\361c765060f9b715c332e4a3bd65b841\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\361c765060f9b715c332e4a3bd65b841\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a94fdc10b410df9f9e1ce98d4cee3bb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a94fdc10b410df9f9e1ce98d4cee3bb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\417e2915c50bb50aba4be1d83fd68a69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\417e2915c50bb50aba4be1d83fd68a69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d4a3605fee491524cd82e15a585400ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d4a3605fee491524cd82e15a585400ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7c3dec16f36543ac16b38dfdc02fdfe8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7c3dec16f36543ac16b38dfdc02fdfe8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4d6d6cc12659e04b2effd0d203d9af98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4d6d6cc12659e04b2effd0d203d9af98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0962ede0664cdcee1b88f7fcbbbf8d89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0962ede0664cdcee1b88f7fcbbbf8d89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3975cdda7262af656fce4dc53e0e90a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3975cdda7262af656fce4dc53e0e90a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\700fd3dcf657ea15f6632587c5016680\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\700fd3dcf657ea15f6632587c5016680\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\63c1bfbe918430f7f3983e456466a6ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\63c1bfbe918430f7f3983e456466a6ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\055923025c396eaae5944854798bcd23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\055923025c396eaae5944854798bcd23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c4c012d4876e5523710efed51c5da764\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c4c012d4876e5523710efed51c5da764\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ac99007b6cc59e4f57a93a7d6d84afbc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\korro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ac99007b6cc59e4f57a93a7d6d84afbc\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\korro\Desktop\GitHub\SauverPompy\AndroidProject\progQuestions\app\src\main\AndroidManifest.xml

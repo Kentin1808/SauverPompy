@@ -20,7 +20,7 @@
 
     <string name="bonnerep2">Des cloques apparaissent sur la surface brûlée</string>
     <string name="mauvaiserep2.1">La peau est rouge et enflée</string>
-    <string name="mauvaiserep2.2">La brûlure ce situe au niveau du visage</string>
+    <string name="mauvaiserep2.2">La brûlure se situe au niveau du visage</string>
     <string name="mauvaiserep2.3">La victime se plaint beaucoup</string>
 
     <!-- Question 3 -->
@@ -30,5 +30,13 @@
     <string name="mauvaiserep3.1">Faire boire la victime sans la faire vomir</string>
     <string name="mauvaiserep3.2">Faire vomir la victime sans la faire boire</string>
     <string name="mauvaiserep3.3">Faire vomir puis boire la victime</string>
+
+    <!-- Question 4 -->
+    <string name="question4">Un coup de soleil correspond à une brûlure au 2eme degré</string>
+
+    <string name="bonnerep4">Faux</string>
+    <string name="mauvaiserep4.1">Vrai</string>
+    <string name="mauvaiserep4.2">Ca dépend du coup de soleil</string>
+    <string name="mauvaiserep4.3">Faux, les coups de soleil sont négligeables</string>
 
 </resources>

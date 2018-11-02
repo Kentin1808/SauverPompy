@@ -44,14 +44,14 @@ public class Reponse3 extends AppCompatActivity {
         myButton.setBackgroundColor(Color.GRAY);
 
         //création de l'activité suivante
-        Intent affichageScore = new Intent (this, AffichageScore.class);
+        Intent quest4 = new Intent (this, Question4.class);
 
         //enregistrement du score dans msgScore pour pouvoir le passer a l'activité suivante
         String msgScore = String.valueOf(score);
-        affichageScore.putExtra("msgScore", msgScore);
+        quest4.putExtra("msgScore", msgScore);
 
         //appel de l'activité suivante
-        startActivity(affichageScore) ;
+        startActivity(quest4) ;
     }
 
 }
