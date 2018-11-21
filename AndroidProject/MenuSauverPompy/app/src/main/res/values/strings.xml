@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MenuSauverPompy</string>
+    <string name="quizz">Quizz</string>
+    <string name="cours">Cours</string>
+    <string name="r_glages">Réglages</string>
+    <string name="num_ro_d_urgence">Numéro D\'Urgence</string>
+    <string name="quiz">Quiz</string>
+    <string name="iutlogo">IutLogo</string>
+    <string name="reglagelogo">ReglageLogo</string>
+    <string name="courslogo">CoursLogo</string>
+    <string name="peluchepompy">PeluchePompy</string>
+    <string name="bouton_quiz">bouton quiz</string>
+    <string name="bouton_cours">bouton cours</string>
+    <string name="r_gagles">Régagles</string>
+    <string name="numero_d_urgence">Numero d\'Urgence</string>
+    <string name="bouton_num_urgence">bouton num urgence</string>
+    <string name="bouton_reglage">bouton reglage</string>
+    <string name="aide_et_assistance">Aide et Assistance</string>
+    <string name="politique_de_confidentialit">Politique de Confidentialité</string>
+    <string name="condition_d_utilisation">Condition d\'Utilisation</string>
+    <string name="r_glage">Réglage</string>
+    <string name="notification">Notification</string>
+    <string name="son">Son</string>
+</resources>
