@@ -39,4 +39,12 @@
     <string name="mauvaiserep4.2">Ca dépend du coup de soleil</string>
     <string name="mauvaiserep4.3">Faux, les coups de soleil sont négligeables</string>
 
+    <!-- Question 5 -->
+    <string name="question5">Dans le cas d\'une brûlure, il faut d\'urgence</string>
+
+    <string name="bonnerep5">Mettre un corps gras si c\'est une brûlure au premier degré</string>
+    <string name="mauvaiserep5.1">Percer les cloque si c\'est une brûlure au 2nd degré</string>
+    <string name="mauvaiserep5.2">Enlever les habits collés</string>
+    <string name="mauvaiserep5.3">Appliquer la règle du 15 - 10</string>
+
 </resources>

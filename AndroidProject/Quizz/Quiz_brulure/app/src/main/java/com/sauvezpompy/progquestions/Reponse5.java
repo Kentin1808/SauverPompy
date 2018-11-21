@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Reponse4 extends AppCompatActivity {
+public class Reponse5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reponse4);
+        setContentView(R.layout.activity_reponse5);
 
         Intent i = getIntent();
         Bundle b = i.getExtras();
@@ -44,14 +44,14 @@ public class Reponse4 extends AppCompatActivity {
         myButton.setBackgroundColor(Color.GRAY);
 
         //création de l'activité suivante
-        Intent quest5 = new Intent (this, Question5.class);
+        Intent intent = new Intent (this, AffichageScore.class);
 
         //enregistrement du score dans msgScore pour pouvoir le passer a l'activité suivante
         String msgScore = String.valueOf(score);
-        quest5.putExtra("msgScore", msgScore);
+        intent.putExtra("msgScore", msgScore);
 
         //appel de l'activité suivante
-        startActivity(quest5) ;
+        startActivity(intent) ;
     }
 
 }
