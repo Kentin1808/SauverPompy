@@ -10,85 +10,89 @@
     <ImageButton
         android:id="@+id/image_button_Pompy"
         android:layout_width="68dp"
-        android:layout_height="81dp"
+        android:layout_height="87dp"
 
-        android:layout_marginBottom="24dp"
         android:background="#FFFFFF"
         android:contentDescription="@string/peluchepompy"
         android:src="@drawable/sauverpompy"
-        app:layout_constraintBottom_toTopOf="@+id/image_button_Cours"
-        app:layout_constraintEnd_toEndOf="@+id/Quiz" />
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="125dp"
+        />
 
 
     <ImageButton
         android:id="@+id/image_button_Cours"
         android:layout_width="86dp"
-        android:layout_height="82dp"
+        android:layout_height="87dp"
 
-        android:layout_marginBottom="32dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
         android:background="#FFFFFF"
         android:contentDescription="@string/courslogo"
         android:src="@drawable/iconcours"
-        app:layout_constraintBottom_toTopOf="@+id/image_button_Reglages"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="243dp"
+        tools:ignore="MissingConstraints"
+        />
 
 
     <Button
         android:id="@+id/Quiz"
         android:layout_width="260dp"
         android:layout_height="86dp"
-        android:layout_marginBottom="19dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:alpha="0.700"
         android:background="#87E990"
         android:contentDescription="@string/bouton_quiz"
         android:text="@string/quiz"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/Cours"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="125dp" />
 
     <Button
         android:id="@+id/Cours"
         android:layout_width="262dp"
         android:layout_height="87dp"
-        android:layout_marginBottom="28dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:alpha="0.700"
         android:background="#E9383F"
         android:contentDescription="@string/bouton_cours"
         android:text="@string/cours"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/image_button_Reglages"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="243dp" />
 
     <ImageButton
         android:id="@+id/image_button_Reglages"
         android:layout_width="61dp"
         android:layout_height="80dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
 
         android:background="#FFFFFF"
         android:contentDescription="@string/reglagelogo"
         android:onClick="ouvrirReglage"
         android:src="@drawable/engrenage_icon"
-        app:layout_constraintBottom_toBottomOf="@+id/Reglages"
-        app:layout_constraintEnd_toEndOf="@+id/Reglages" />
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="MissingConstraints"
+        />
 
     <Button
         android:id="@+id/Reglages"
         android:layout_width="263dp"
         android:layout_height="82dp"
-
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:alpha="0.700"
         android:background="#77B5FE"
         android:contentDescription="bouton_reglage"
@@ -96,24 +100,30 @@
         android:text="@string/r_gagles"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/LogoIut"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="364dp" />
 
     <Button
         android:id="@+id/NumUrgence"
         android:layout_width="315dp"
         android:layout_height="107dp"
-        android:layout_marginBottom="27dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginRight="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:background="#FF0000"
         android:contentDescription="@string/bouton_num_urgence"
+        android:onClick="ouvrirNumeroUrgence"
         android:text="@string/numero_d_urgence"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/Quiz"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
 
 
     <ImageView
@@ -121,13 +131,16 @@
         android:layout_width="307dp"
         android:layout_height="68dp"
 
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:contentDescription="@string/iutlogo"
         android:src="@drawable/logoiut"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="474dp" />
 
     <android.support.constraint.Group
         android:id="@+id/group"

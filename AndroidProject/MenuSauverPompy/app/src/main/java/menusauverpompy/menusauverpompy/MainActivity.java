@@ -19,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
     public void ouvrirReglage(View view){
         startActivity(new Intent(this,pageReglage.class));
     }
+    public void ouvrirNumeroUrgence(View view){
+        startActivity(new Intent(this,pageNum.class));
+    }
 
 }

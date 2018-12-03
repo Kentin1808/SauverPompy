@@ -11,102 +11,122 @@
         android:id="@+id/button5"
         android:layout_width="300dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="47dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:alpha="0.700"
         android:background="#77B5FE"
         android:text="@string/condition_d_utilisation"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="268dp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="300dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="29dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:alpha="0.700"
         android:background="#E9383F"
         android:text="@string/politique_de_confidentialit"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="461dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="139dp"
         android:layout_height="42dp"
-        android:layout_marginBottom="33dp"
-        android:layout_marginEnd="123dp"
-        android:layout_marginRight="123dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
         android:text="@string/notification"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="179dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="139dp"
         android:layout_height="42dp"
-        android:layout_marginBottom="23dp"
-        android:layout_marginEnd="123dp"
-        android:layout_marginRight="123dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
         android:text="@string/son"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox2" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="87dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="59dp"
-        android:layout_marginBottom="23dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="77dp" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="59dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="162dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="300dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="32dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:alpha="0.700"
         android:background="#87E990"
         android:text="@string/aide_et_assistance"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="367dp" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="383dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="345dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:background="@color/colorPrimary"
         android:paddingTop="8dp"
         android:text="@string/r_glage"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
 
 </android.support.constraint.ConstraintLayout>
