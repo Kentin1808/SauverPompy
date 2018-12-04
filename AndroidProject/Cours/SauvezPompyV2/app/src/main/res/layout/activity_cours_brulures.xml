@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Titre_Brulures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Les brûlures"
+        android:textSize="@dimen/titleSize"
+        android:textColor="@color/titleColor"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp">
+
+        <TextView
+            android:id="@+id/Number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/numberSize"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:id="@+id/Number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/numberSize"
+            android:layout_marginTop="70dp"/>
+
+        <TextView
+            android:id="@+id/Number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/numberSize"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/Number4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/numberSize"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Titre_Brulures"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_alignLeft="@+id/Titre_Brulures">
+
+        <TextView
+            android:id="@+id/Cours1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hfdbfdbfthftxbfgiegfizekhkseihfkhse
+sfiuseghfksrjfsrhfkrsv
+srfisrhvkhsrkvhjkfsrhkjhvfsrf
+skfgsrhkfkrskhfksrf
+rskhgfsrkhvksrhjkghrg" />
+
+        <TextView
+            android:id="@+id/Cours2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="hfdbfdbfthftxbfgiegfizekhkseihfkhse
+sfiuseghfksrjfsrhfkrsv
+srfisrhvkhsrkvhjkfsrhkjhvfsrf
+skfgsrhkfkrskhfksrf
+rskhgfsrkhvksrhjkghrg" />
+
+
+        <TextView
+            android:id="@+id/Cours3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="hfdbfdbfthftxbfgiegfizekhkseihfkhse
+sfiuseghfksrjfsrhfkrsv
+srfisrhvkhsrkvhjkfsrhkjhvfsrf
+skfgsrhkfkrskhfksrf
+rskhgfsrkhvksrhjkghrg" />
+
+        <TextView
+            android:id="@+id/Cours4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="hfdbfdbfthftxbfgiegfizekhkseihfkhse
+sfiuseghfksrjfsrhfkrsv
+srfisrhvkhsrkvhjkfsrhkjhvfsrf
+skfgsrhkfkrskhfksrf
+rskhgfsrkhvksrhjkghrg" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button_Suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Titre_Brulures"
+        android:text="suiv"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/numberSize"
+        android:visibility="visible"
+        android:layout_toRightOf="@+id/Titre_Brulures" />
+
+    <Button
+        android:id="@+id/button_Precedent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="prec"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/numberSize"
+        android:visibility="visible"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Cours">
+
+    <TextView
+        android:id="@+id/MenuTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Menu des cours"
+        android:textSize="@dimen/titleSize"
+        android:textColor="@color/titleColor"/>
+
+    <Button
+        android:id="@+id/Button_Brulures"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button_CoupDeChaleur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-128dp"
+        android:text="Brûlures"
+        android:textSize="@dimen/buttonSize" />
+
+    <Button
+        android:id="@+id/Button_CoupDeChaleur"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:text="Coup de chaleur"
+        android:textSize="@dimen/buttonSize" />
+
+    <Button
+        android:id="@+id/Button_AVC"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:text="Accident Vasculaire Cérébral (AVC)"
+        android:textSize="@dimen/buttonSize" />
+
+    <Button
+        android:id="@+id/Button_ArretCardiaque"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="194dp"
+        android:text="Arrêt cardiaque"
+        android:textSize="@dimen/buttonSize" />
+
+    <Button
+        android:id="@+id/Button_PCI"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:text="Perte de connaissance"
+        android:textSize="@dimen/buttonSize" />
+
+    <Button
+        android:id="@+id/Button_AVP"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:text="Accident sur la voie publique"
+        android:textSize="@dimen/buttonSize" />
+
+    <Button
+        android:id="@+id/Button_Hemorragie"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Hémorragie"
+        android:textSize="@dimen/buttonSize" />
+
+</RelativeLayout>
